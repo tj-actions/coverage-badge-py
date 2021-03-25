@@ -31,7 +31,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg)
 Features
 --------
 
-* TODO
+* Generate coverage badges from a local coverage data file without uploading results to a 3rd party.
 
 
 Credits

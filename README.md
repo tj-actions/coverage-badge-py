@@ -17,6 +17,7 @@ Generate coverage.py badge
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
+| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for the generated coverage badge. |
 
 
 

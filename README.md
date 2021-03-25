@@ -26,6 +26,37 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg)
 
 
 
+### Example
+
+```
+...
+    steps:
+      - uses: actions/checkout@v2
+      - name: Coverage Badge
+        uses: tj-actions/coverage-badge-py@v1
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v5.1
+        id: changed_files
+        with:
+          files: coverage.svg
+
+      - name: Commit files
+        if: steps.changed_files.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add coverage.svg
+          git commit -m "Updated coverage.svg"
+
+      - name: Push changes
+        if: steps.changed_files.outputs.files_changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.github_token }}
+          branch: ${{ github.head_ref }}
+```
+
+
 * Free software: [MIT license](LICENSE)
 
 Features

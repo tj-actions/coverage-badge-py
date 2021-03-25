@@ -1,3 +1,5 @@
+[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml)
+
 coverage-badge-py
 -----------------
 

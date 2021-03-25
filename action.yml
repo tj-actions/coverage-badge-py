@@ -8,7 +8,7 @@ inputs:
     default: ${{ github.token }}
   output:
     description: 'Output path to write the badge.'
-    required: false
+    required: true
     default: 'coverage.svg'
 
 runs:

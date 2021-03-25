@@ -2,4 +2,4 @@
 
 set -e
 
-coverage-badge -o "${INPUT_OUTPUT}"
+coverage-badge -o "${INPUT_OUTPUT}" -q

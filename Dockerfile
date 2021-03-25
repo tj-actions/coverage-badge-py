@@ -4,7 +4,7 @@ LABEL maintainer="Tonye Jack <jtonye@ymail.com>"
 
 RUN apk add bash
 
-RUN pip install -U coverage-badge
+RUN pip install -U coverage coverage-badge
 
 COPY entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh

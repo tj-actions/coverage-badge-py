@@ -1,11 +1,7 @@
 coverage-badge-py
 -----------------
 
-Generate coverage.py badge
-
-Sample badge:
-
-![coverage badge](./coverage.svg)
+Generate coverage.py badge like this ![coverage badge](./coverage.svg)
 
 ## Usage:
 

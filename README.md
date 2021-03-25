@@ -28,7 +28,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg)
 
 ### Example
 
-```
+```yml
 ...
     steps:
       - uses: actions/checkout@v2

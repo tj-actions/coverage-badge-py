@@ -11,6 +11,8 @@ Generate coverage.py badge
         uses: tj-actions/coverage-badge-py@v1
 ```
 
+> NOTE: :warning:
+> * It's important that you run this action from the directory where the .coverage data file is located.
 
 ## Inputs
 

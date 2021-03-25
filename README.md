@@ -3,6 +3,12 @@ coverage-badge-py
 
 Generate coverage.py badge
 
+Sample badge:
+
+![coverage badge](./coverage.svg)
+
+## Usage:
+
 ```yaml
 ...
     steps:

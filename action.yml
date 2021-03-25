@@ -10,6 +10,10 @@ inputs:
     description: 'Output path to write the badge.'
     required: true
     default: 'coverage.svg'
+  overwrite:
+    description: 'Overwrite existing.'
+    required: true
+    default: 'true'
 
 runs:
   using: 'docker'

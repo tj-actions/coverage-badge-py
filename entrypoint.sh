@@ -2,4 +2,10 @@
 
 set -e
 
-coverage-badge -o "${INPUT_OUTPUT}" -q
+EXTRA_ARGS=""
+
+if [[ $INPUT_OVERWRITE == 'true'  ]]; then
+  EXTRA_ARGS+='-f'
+fi
+
+coverage-badge "$EXTRA_ARGS" -o "${INPUT_OUTPUT}"

@@ -3,7 +3,7 @@
 coverage-badge-py
 -----------------
 
-Generate coverage.py badge like this ![coverage badge](./coverage.svg)
+Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party.
 
 ## Usage:
 
@@ -60,11 +60,6 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg)
 
 
 * Free software: [MIT license](LICENSE)
-
-Features
---------
-
-* Generate coverage badges from a local coverage data file without uploading results to a 3rd party.
 
 
 Credits

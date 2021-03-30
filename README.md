@@ -1,4 +1,4 @@
-[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml)
+[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml)
 
 coverage-badge-py
 -----------------

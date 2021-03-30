@@ -3,7 +3,7 @@
 coverage-badge-py
 -----------------
 
-Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party.
+Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party site.
 
 ## Usage:
 

@@ -2,10 +2,6 @@ name: Coverage Badge
 description: Generate coverage.py badge
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
   output:
     description: 'Output path to write the badge.'
     required: true

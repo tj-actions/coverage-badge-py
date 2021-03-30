@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.1](https://github.com/tj-actions/coverage-badge-py/tree/v1.1) (2021-03-30)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1...v1.1)
+
+**Merged pull requests:**
+
+- Configure Renovate [\#2](https://github.com/tj-actions/coverage-badge-py/pull/2) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to [\#1](https://github.com/tj-actions/coverage-badge-py/pull/1) ([jackton1](https://github.com/jackton1))
+
 ## [v1](https://github.com/tj-actions/coverage-badge-py/tree/v1) (2021-03-25)
 
 [Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/9a71d8b2395ec6eaf55f510ce22b1a3fe4085d90...v1)

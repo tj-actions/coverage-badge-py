@@ -23,8 +23,8 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
-| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for the generated coverage badge. |
-| overwrite     |  `string`   |   `true`     |   `'true'`            |  Boolean string to overwrite an existing badge.  |
+| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for <br /> the generated coverage badge. |
+| overwrite     |  `string`   |   `true`     |   `'true'`            |  Boolean string to overwrite <br /> an existing badge.  |
 
 
 

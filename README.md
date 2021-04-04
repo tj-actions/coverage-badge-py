@@ -1,11 +1,9 @@
+[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml)
+
 coverage-badge-py
 -----------------
 
-Generate coverage.py badge
-
-Sample badge:
-
-![coverage badge](./coverage.svg)
+Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party site.
 
 ## Usage:
 
@@ -14,7 +12,7 @@ Sample badge:
     steps:
       - uses: actions/checkout@v2
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1
+        uses: tj-actions/coverage-badge-py@v1.1
 ```
 
 > NOTE: :warning:
@@ -24,17 +22,43 @@ Sample badge:
 
 |   Input       |    type    |  required     |  default                      |  description  |
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| token         |  `string`   |    `true`    | `${{ github.token }}` | [GITHUB_TOKEN](https://docs.github.com/en/free-pro-team@latest/actions/reference/authentication-in-a-workflow#using-the-github_token-in-a-workflow) <br /> or a repo scoped <br /> [Personal Access Token](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token)              |
-| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for the generated coverage badge. |
+| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for <br /> the generated coverage badge. |
+| overwrite     |  `string`   |   `true`     |   `'true'`            |  Boolean string used to  <br /> determine wheter to overwrite <br /> an existing badge.  |
 
+
+
+### Example
+
+```yml
+...
+    steps:
+      - uses: actions/checkout@v2
+      - name: Coverage Badge
+        uses: tj-actions/coverage-badge-py@v1.1
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v5.1
+        id: changed_files
+        with:
+          files: coverage.svg
+
+      - name: Commit files
+        if: steps.changed_files.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add coverage.svg
+          git commit -m "Updated coverage.svg"
+
+      - name: Push changes
+        if: steps.changed_files.outputs.files_changed == 'true'
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.github_token }}
+          branch: ${{ github.ref }}
+```
 
 
 * Free software: [MIT license](LICENSE)
-
-Features
---------
-
-* TODO
 
 
 Credits

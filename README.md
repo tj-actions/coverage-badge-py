@@ -54,7 +54,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.github_token }}
-          branch: ${{ github.head_ref }}
+          branch: ${{ github.ref }}
 ```
 
 

@@ -17,7 +17,13 @@ runs:
     - id: coverage-badge
       run: |
         pip install -U coverage-badge
-        bash entrypoint.sh
+        EXTRA_ARGS=""
+
+        if [[ '${{ inputs.overwrite }}' == 'true'  ]]; then
+          EXTRA_ARGS+='-f'
+        fi
+
+        coverage-badge "$EXTRA_ARGS" -o "${{ inputs.output }}"
       shell: bash
 branding:
   icon: menu

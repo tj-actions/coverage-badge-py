@@ -2,10 +2,6 @@ name: Coverage Badge
 description: Generate coverage.py badge
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
   output:
     description: 'Output path to write the badge.'
     required: true
@@ -16,10 +12,13 @@ inputs:
     default: 'true'
 
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
-  args:
-    - ${{ inputs.token }}
+  using: 'composite'
+  steps:
+    - id: coverage-badge
+      run: |
+        pip install -U coverage-badge
+        bash entrypoint.sh
+      shell: bash
 branding:
   icon: menu
   color: white

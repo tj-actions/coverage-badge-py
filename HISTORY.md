@@ -1,5 +1,14 @@
 # Changelog
 
+## [v1.2](https://github.com/tj-actions/coverage-badge-py/tree/v1.2) (2021-04-04)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.1...v1.2)
+
+**Merged pull requests:**
+
+- Update python Docker tag to v3.9.3 [\#4](https://github.com/tj-actions/coverage-badge-py/pull/4) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v1.1 [\#3](https://github.com/tj-actions/coverage-badge-py/pull/3) ([jackton1](https://github.com/jackton1))
+
 ## [v1.1](https://github.com/tj-actions/coverage-badge-py/tree/v1.1) (2021-03-30)
 
 [Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1...v1.1)

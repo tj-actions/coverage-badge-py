@@ -12,7 +12,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
     steps:
       - uses: actions/checkout@v2
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1.1
+        uses: tj-actions/coverage-badge-py@v1.2
 ```
 
 > NOTE: :warning:
@@ -34,7 +34,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
     steps:
       - uses: actions/checkout@v2
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1.1
+        uses: tj-actions/coverage-badge-py@v1.2
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v5.1
         id: changed_files

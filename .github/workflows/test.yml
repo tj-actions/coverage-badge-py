@@ -18,6 +18,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Show event payload
         run: echo "${{ toJSON(github.event) }}"
+
 #       - name: Run coverage-badge-py
 #         uses: ./
 # TODO: Add test.

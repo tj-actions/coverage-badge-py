@@ -26,5 +26,5 @@ runs:
         coverage-badge "$EXTRA_ARGS" -o "${{ inputs.output }}"
       shell: bash
 branding:
-  icon: menu
+  icon: check-circle
   color: white

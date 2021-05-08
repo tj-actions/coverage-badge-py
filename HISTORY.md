@@ -1,5 +1,20 @@
 # Changelog
 
+## [v1.6](https://github.com/tj-actions/coverage-badge-py/tree/v1.6) (2021-05-08)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.5...v1.6)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#11](https://github.com/tj-actions/coverage-badge-py/issues/11)
+
+**Merged pull requests:**
+
+- Update tj-actions/github-changelog-generator action to v1.8 [\#14](https://github.com/tj-actions/coverage-badge-py/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgrade to GitHub-native Dependabot [\#12](https://github.com/tj-actions/coverage-badge-py/pull/12) ([dependabot-preview[bot]](https://github.com/apps/dependabot-preview))
+- Update tj-actions/github-changelog-generator action to v1.6 [\#10](https://github.com/tj-actions/coverage-badge-py/pull/10) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v1.5 [\#9](https://github.com/tj-actions/coverage-badge-py/pull/9) ([jackton1](https://github.com/jackton1))
+
 ## [v1.5](https://github.com/tj-actions/coverage-badge-py/tree/v1.5) (2021-04-23)
 
 [Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.4...v1.5)

@@ -1,5 +1,5 @@
-name: coverage.py badge py
-description: Generate coverage.py badge
+name: coverage.py badge
+description: Generate a coverage.py badge
 author: tj-actions
 inputs:
   output:

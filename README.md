@@ -1,7 +1,6 @@
-[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fcoverage-badge-py%26badge%3Dtrue)](https://github.com/search?o=desc&q=tj-actions+coverage-badge-py+path%3A.github%2Fworkflows+language%3AYAML&s=&type=Code)
+[![CI](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/test.yml) [![Update release version.](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml/badge.svg)](https://github.com/tj-actions/coverage-badge-py/actions/workflows/sync-release-version.yml) [![Public workflows that use this action.](https://img.shields.io/endpoint?url=https%3A%2F%2Fapi-tj-actions1.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fcoverage-badge-py%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+coverage-badge-py+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
 
-coverage-badge-py
------------------
+## coverage-badge-py
 
 Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party site.
 
@@ -16,7 +15,8 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 ```
 
 > NOTE: :warning:
-> * It's important that you run this action from the directory where the .coverage data file is located.
+>
+> *   It's important that you run this action from the directory where the .coverage data file is located.
 
 ## Inputs
 
@@ -24,8 +24,6 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 |:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
 | output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for <br /> the generated coverage badge. |
 | overwrite     |  `string`   |   `true`     |   `'true'`            |  Boolean string used to  <br /> determine wheter to overwrite <br /> an existing badge.  |
-
-
 
 ### Example
 
@@ -59,31 +57,26 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
           branch: ${{ github.ref }}
 ```
 
-
-* Free software: [MIT license](LICENSE)
+*   Free software: [MIT license](LICENSE)
 
 If you feel generous and want to show some extra appreciation:
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
 [buymeacoffee]: https://www.buymeacoffee.com/jackton1
+
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
-
-Credits
--------
+## Credits
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
-
-
-Report Bugs
------------
+## Report Bugs
 
 Report bugs at https://github.com/tj-actions/coverage-badge-py/issues.
 
 If you are reporting a bug, please include:
 
-* Your operating system name and version.
-* Any details about your workflow that might be helpful in troubleshooting.
-* Detailed steps to reproduce the bug.
+*   Your operating system name and version.
+*   Any details about your workflow that might be helpful in troubleshooting.
+*   Detailed steps to reproduce the bug.

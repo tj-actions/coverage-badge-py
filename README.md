@@ -37,8 +37,10 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
       - uses: actions/checkout@v2
         with: 
           fetch-depth: 0
+
       - name: Coverage Badge
         uses: tj-actions/coverage-badge-py@v1.2
+
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v6
         id: changed_files

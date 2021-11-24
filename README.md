@@ -22,6 +22,16 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 >
 > *   It's important that you run this action from the directory where the .coverage data file is located.
 
+If you feel generous and want to show some extra appreciation:
+
+Support this project with a :star:
+
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
+[buymeacoffee]: https://www.buymeacoffee.com/jackton1
+
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
+
 ## Inputs
 
 |   Input       |    type    |  required     |  default                      |  description  |
@@ -64,14 +74,6 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 ```
 
 *   Free software: [MIT license](LICENSE)
-
-If you feel generous and want to show some extra appreciation:
-
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
-
-[buymeacoffee]: https://www.buymeacoffee.com/jackton1
-
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png
 
 # TODO
 

@@ -15,6 +15,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2.4.0
-#       - name: Run coverage-badge-py
-#         uses: ./
-# TODO: Add test.
+      - name: Run coverage-badge-py
+        uses: ./
+

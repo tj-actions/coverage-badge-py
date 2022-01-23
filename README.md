@@ -35,10 +35,14 @@ Support this project with a :star:
 
 ## Inputs
 
-|   Input       |    type    |  required     |  default                      |  description  |
-|:-------------:|:-----------:|:-------------:|:----------------------------:|:-------------:|
-| output        |  `string`   |   `true`     |  `coverage.svg`       |  The output path for <br /> the generated coverage badge. |
-| overwrite     |  `string`   |   `true`     |   `'true'`            |  Boolean string used to  <br /> determine wheter to overwrite <br /> an existing badge.  |
+<!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
+
+|   INPUT   |  TYPE  | REQUIRED |    DEFAULT     |                 DESCRIPTION                 |
+|-----------|--------|----------|----------------|---------------------------------------------|
+| output    | string | true     | `coverage.svg` | Output path to write the<br>coverage badge. |
+| overwrite | string | true     | `true`         | Overwrite an existing coverage badge.<br>   |
+
+<!-- AUTO-DOC-INPUT:END -->
 
 ### Example
 

@@ -55,7 +55,7 @@ Support this project with a :star:
           fetch-depth: 0
 
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1.2
+        uses: tj-actions/coverage-badge-py@v1.8
 
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v6

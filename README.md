@@ -17,7 +17,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
     steps:
       - uses: actions/checkout@v2
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1.2
+        uses: tj-actions/coverage-badge-py@v1.8
 ```
 
 > NOTE: :warning:

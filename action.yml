@@ -3,11 +3,11 @@ description: Generate a coverage.py badge
 author: tj-actions
 inputs:
   output:
-    description: 'Output path to write the badge.'
+    description: 'Output path to write the coverage badge.'
     required: true
     default: 'coverage.svg'
   overwrite:
-    description: 'Overwrite existing.'
+    description: 'Overwrite an existing coverage badge.'
     required: true
     default: 'true'
 

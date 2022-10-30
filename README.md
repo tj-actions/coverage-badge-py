@@ -40,8 +40,8 @@ Support this project with a :star:
 
 |   INPUT   |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
 |-----------|--------|----------|------------------|---------------------------------------------|
-| output    | string | true     | `"coverage.svg"` | Output path to write the<br>coverage badge. |
-| overwrite | string | true     | `"true"`         | Overwrite an existing coverage badge.<br>   |
+|  output   | string |   true   | `"coverage.svg"` | Output path to write the<br>coverage badge. |
+| overwrite | string |   true   |     `"true"`     |  Overwrite an existing coverage badge.<br>  |
 
 <!-- AUTO-DOC-INPUT:END -->
 

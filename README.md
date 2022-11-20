@@ -58,7 +58,7 @@ Support this project with a :star:
         uses: tj-actions/coverage-badge-py@v1.8
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v9
+        uses: tj-actions/verify-changed-files@v12
         id: changed_files
         with:
           files: coverage.svg

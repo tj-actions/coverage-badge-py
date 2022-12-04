@@ -19,6 +19,11 @@ on:
 
 jobs:
   codacy-security-scan:
+    # Cancel other workflows that are running for the same branch
+    # https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#concurrency
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     name: Codacy Security Scan
     runs-on: ubuntu-latest
     steps:
@@ -28,7 +33,8 @@ jobs:
 
       # Execute Codacy Analysis CLI and generate a SARIF output with the security issues identified during the analysis
       - name: Run Codacy Analysis CLI
-        uses: codacy/codacy-analysis-cli-action@v4.1.0
+        continue-on-error: true
+        uses: codacy/codacy-analysis-cli-action@v4.2.0
         with:
           # Check https://github.com/codacy/codacy-analysis-cli#project-token to get your project token from your Codacy repository
           # You can also omit the token and run the tools that support default configurations
@@ -39,11 +45,12 @@ jobs:
           # Adjust severity of non-security issues
           gh-code-scanning-compat: true
           # Force 0 exit code to allow SARIF file generation
-          # This will handover control about PR rejection to the GitHub side
+          # This will hand over control about PR rejection to the GitHub side
           max-allowed-issues: 2147483647
 
       # Upload the SARIF file generated in the previous step
       - name: Upload SARIF results file
+        continue-on-error: true
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif

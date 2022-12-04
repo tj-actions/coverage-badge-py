@@ -41,8 +41,8 @@ Support this project with a :star:
 
 |   INPUT   |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
 |-----------|--------|----------|------------------|---------------------------------------------|
-| output    | string | true     | `"coverage.svg"` | Output path to write the<br>coverage badge. |
-| overwrite | string | true     | `"true"`         | Overwrite an existing coverage badge.<br>   |
+|  output   | string |   true   | `"coverage.svg"` | Output path to write the<br>coverage badge. |
+| overwrite | string |   true   |     `"true"`     |  Overwrite an existing coverage badge.<br>  |
 
 <!-- AUTO-DOC-INPUT:END -->
 
@@ -59,7 +59,7 @@ Support this project with a :star:
         uses: tj-actions/coverage-badge-py@v1.8
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v9
+        uses: tj-actions/verify-changed-files@v12
         id: changed_files
         with:
           files: coverage.svg

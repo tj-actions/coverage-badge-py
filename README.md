@@ -38,10 +38,10 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|   INPUT   |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
-|-----------|--------|----------|------------------|---------------------------------------------|
-|  output   | string |   true   | `"coverage.svg"` | Output path to write the<br>coverage badge. |
-| overwrite | string |   true   |     `"true"`     |  Overwrite an existing coverage badge.<br>  |
+|   INPUT   |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                  |
+|-----------|--------|----------|------------------|----------------------------------------------|
+|  output   | string |   true   | `"coverage.svg"` | Output path to write the coverage badge.<br> |
+| overwrite | string |   true   |     `"true"`     |    Overwrite an existing coverage badge.     |
 
 <!-- AUTO-DOC-INPUT:END -->
 

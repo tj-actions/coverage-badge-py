@@ -39,10 +39,11 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|   INPUT   |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
-|-----------|--------|----------|------------------|---------------------------------------------|
-|  output   | string |   true   | `"coverage.svg"` | Output path to write the coverage<br>badge. |
-| overwrite | string |   true   |     `"true"`     |    Overwrite an existing coverage badge.    |
+|       INPUT       |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
+|-------------------|--------|----------|------------------|---------------------------------------------|
+|      output       | string |  false   | `"coverage.svg"` | Output path to write the coverage<br>badge. |
+|     overwrite     | string |  false   |     `"true"`     |    Overwrite an existing coverage badge.    |
+| working-directory | string |  false   |      `"."`       |          Current working directory          |
 
 <!-- AUTO-DOC-INPUT:END -->
 
@@ -93,7 +94,6 @@ Support this project with a :star:
 ```
 
 *   Free software: [MIT license](LICENSE)
-
 
 ## Credits
 

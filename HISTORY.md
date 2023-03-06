@@ -1,5 +1,66 @@
 # Changelog
 
+## [v2](https://github.com/tj-actions/coverage-badge-py/tree/v2) (2023-03-06)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.8...v2)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#11](https://github.com/tj-actions/coverage-badge-py/issues/11)
+
+**Merged pull requests:**
+
+- Update pascalgn/automerge-action action to v0.15.6 [\#119](https://github.com/tj-actions/coverage-badge-py/pull/119) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.3.0 [\#118](https://github.com/tj-actions/coverage-badge-py/pull/118) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.7.3 [\#117](https://github.com/tj-actions/coverage-badge-py/pull/117) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump tj-actions/auto-doc from 1.7.1 to 1.7.2 [\#116](https://github.com/tj-actions/coverage-badge-py/pull/116) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v1.7.2 [\#115](https://github.com/tj-actions/coverage-badge-py/pull/115) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#114](https://github.com/tj-actions/coverage-badge-py/pull/114) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.7.1 [\#113](https://github.com/tj-actions/coverage-badge-py/pull/113) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.17 [\#112](https://github.com/tj-actions/coverage-badge-py/pull/112) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v13 [\#111](https://github.com/tj-actions/coverage-badge-py/pull/111) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#110](https://github.com/tj-actions/coverage-badge-py/pull/110) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.6.0 [\#109](https://github.com/tj-actions/coverage-badge-py/pull/109) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.8 [\#108](https://github.com/tj-actions/coverage-badge-py/pull/108) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.5.0 [\#107](https://github.com/tj-actions/coverage-badge-py/pull/107) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.3 [\#106](https://github.com/tj-actions/coverage-badge-py/pull/106) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.2 [\#105](https://github.com/tj-actions/coverage-badge-py/pull/105) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.1 [\#104](https://github.com/tj-actions/coverage-badge-py/pull/104) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump hmarr/auto-approve-action from 2 to 3 [\#103](https://github.com/tj-actions/coverage-badge-py/pull/103) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/auto-doc action to v1.4.3 [\#102](https://github.com/tj-actions/coverage-badge-py/pull/102) ([renovate[bot]](https://github.com/apps/renovate))
+- Updated README.md [\#101](https://github.com/tj-actions/coverage-badge-py/pull/101) ([jackton1](https://github.com/jackton1))
+- Update tj-actions/auto-doc action to v1.4.2 [\#100](https://github.com/tj-actions/coverage-badge-py/pull/100) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.2.0 [\#99](https://github.com/tj-actions/coverage-badge-py/pull/99) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump pascalgn/automerge-action from 0.15.3 to 0.15.5 [\#98](https://github.com/tj-actions/coverage-badge-py/pull/98) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update peter-evans/create-pull-request action to v4.1.4 [\#97](https://github.com/tj-actions/coverage-badge-py/pull/97) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v12 [\#96](https://github.com/tj-actions/coverage-badge-py/pull/96) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.3 [\#95](https://github.com/tj-actions/coverage-badge-py/pull/95) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.2 [\#94](https://github.com/tj-actions/coverage-badge-py/pull/94) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump codacy/codacy-analysis-cli-action from 4.1.0 to 4.2.0 [\#93](https://github.com/tj-actions/coverage-badge-py/pull/93) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update tj-actions/sync-release-version action to v13 [\#92](https://github.com/tj-actions/coverage-badge-py/pull/92) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.15 [\#91](https://github.com/tj-actions/coverage-badge-py/pull/91) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v11 [\#90](https://github.com/tj-actions/coverage-badge-py/pull/90) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.1 [\#89](https://github.com/tj-actions/coverage-badge-py/pull/89) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.4.0 [\#88](https://github.com/tj-actions/coverage-badge-py/pull/88) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.1 [\#87](https://github.com/tj-actions/coverage-badge-py/pull/87) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.1.0 [\#86](https://github.com/tj-actions/coverage-badge-py/pull/86) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.1 [\#85](https://github.com/tj-actions/coverage-badge-py/pull/85) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.3.0 [\#84](https://github.com/tj-actions/coverage-badge-py/pull/84) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/github-changelog-generator action to v1.14 [\#83](https://github.com/tj-actions/coverage-badge-py/pull/83) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/verify-changed-files action to v10 [\#82](https://github.com/tj-actions/coverage-badge-py/pull/82) ([renovate[bot]](https://github.com/apps/renovate))
+- Update codacy/codacy-analysis-cli-action action to v4.1.0 [\#81](https://github.com/tj-actions/coverage-badge-py/pull/81) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.4 [\#80](https://github.com/tj-actions/coverage-badge-py/pull/80) ([renovate[bot]](https://github.com/apps/renovate))
+- Update tj-actions/auto-doc action to v1.2.15 [\#79](https://github.com/tj-actions/coverage-badge-py/pull/79) ([renovate[bot]](https://github.com/apps/renovate))
+- Bump pascalgn/automerge-action from 0.15.2 to 0.15.3 [\#78](https://github.com/tj-actions/coverage-badge-py/pull/78) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Update cirrus-actions/rebase action to v1.7 [\#77](https://github.com/tj-actions/coverage-badge-py/pull/77) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.3 [\#76](https://github.com/tj-actions/coverage-badge-py/pull/76) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github/codeql-action action to v2 [\#75](https://github.com/tj-actions/coverage-badge-py/pull/75) ([renovate[bot]](https://github.com/apps/renovate))
+- Update cirrus-actions/rebase action to v1.6 [\#74](https://github.com/tj-actions/coverage-badge-py/pull/74) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.2 [\#73](https://github.com/tj-actions/coverage-badge-py/pull/73) ([renovate[bot]](https://github.com/apps/renovate))
+- Update peter-evans/create-pull-request action to v4.0.1 [\#72](https://github.com/tj-actions/coverage-badge-py/pull/72) ([renovate[bot]](https://github.com/apps/renovate))
+- Upgraded to v1.8 [\#71](https://github.com/tj-actions/coverage-badge-py/pull/71) ([jackton1](https://github.com/jackton1))
+- Added test and updated supported platforms [\#48](https://github.com/tj-actions/coverage-badge-py/pull/48) ([jackton1](https://github.com/jackton1))
+
 ## [v1.8](https://github.com/tj-actions/coverage-badge-py/tree/v1.8) (2022-03-29)
 
 [Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.7...v1.8)
@@ -7,10 +68,6 @@
 **Fixed bugs:**
 
 - entrypoint.sh: No such file or directory\[BUG\] \<title\> [\#69](https://github.com/tj-actions/coverage-badge-py/issues/69)
-
-**Closed issues:**
-
-- Dependency Dashboard [\#11](https://github.com/tj-actions/coverage-badge-py/issues/11)
 
 **Merged pull requests:**
 

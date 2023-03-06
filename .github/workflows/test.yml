@@ -10,11 +10,57 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
     name: Test coverage-badge-py
+    runs-on: ${{ matrix.platform }}
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [ubuntu-latest, windows-latest, macos-latest, macos-11, windows-2022]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-#       - name: Run coverage-badge-py
-#         uses: ./
-# TODO: Add test.
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip setuptools
+          pip install coverage
+
+      - name: Run coverage
+        working-directory: test_package
+        run: |
+          coverage run -m unittest discover
+          coverage report -m
+ 
+      - name: Run coverage-badge-py
+        uses: ./
+        with:
+          working-directory: test_package
+
+      - name: Verify Changed files
+        uses: tj-actions/verify-changed-files@v13
+        id: verify-changed-files
+        with:
+          files: test_package
+
+      - name: Commit README changes
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add ${{ steps.verify-changed-files.outputs.changed_files }}
+          git commit -m "chore: update coverage badge."
+
+      - name: Push changes
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
+        uses: ad-m/github-push-action@master
+        continue-on-error: true
+        with:
+          github_token: ${{ secrets.PAT_TOKEN }}
+          branch: ${{ github.head_ref }}

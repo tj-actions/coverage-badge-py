@@ -4,19 +4,24 @@ author: tj-actions
 inputs:
   output:
     description: 'Output path to write the coverage badge.'
-    required: true
+    required: false
     default: 'coverage.svg'
   overwrite:
     description: 'Overwrite an existing coverage badge.'
-    required: true
+    required: false
     default: 'true'
+  working-directory:
+    description: 'Current working directory'
+    required: false
+    default: '.'
 
 runs:
   using: 'composite'
   steps:
     - id: coverage-badge
+      working-directory: ${{ inputs.working-directory }}
       run: |
-        pip install -U coverage coverage-badge
+        pip install -U coverage-badge
         EXTRA_ARGS=""
 
         if [[ '${{ inputs.overwrite }}' == 'true'  ]]; then

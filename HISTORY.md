@@ -1,5 +1,21 @@
 # Changelog
 
+## [v2.0.1](https://github.com/tj-actions/coverage-badge-py/tree/v2.0.1) (2023-03-06)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v2.0.0...v2.0.1)
+
+**Merged pull requests:**
+
+- Upgraded to v2 [\#122](https://github.com/tj-actions/coverage-badge-py/pull/122) ([jackton1](https://github.com/jackton1))
+
+## [v2.0.0](https://github.com/tj-actions/coverage-badge-py/tree/v2.0.0) (2023-03-06)
+
+[Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v2...v2.0.0)
+
+**Merged pull requests:**
+
+- Updated README.md [\#121](https://github.com/tj-actions/coverage-badge-py/pull/121) ([jackton1](https://github.com/jackton1))
+
 ## [v2](https://github.com/tj-actions/coverage-badge-py/tree/v2) (2023-03-06)
 
 [Full Changelog](https://github.com/tj-actions/coverage-badge-py/compare/v1.8...v2)

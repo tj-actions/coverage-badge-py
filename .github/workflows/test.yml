@@ -25,9 +25,12 @@ jobs:
           pip install coverage
       
       - name: Run coverage
+        working-directory: test_package
         run: |
           coverage run -m unittest discover
           coverage report -m
  
       - name: Run coverage-badge-py
         uses: ./
+        with:
+          working-directory: test_package

@@ -63,7 +63,6 @@ Support this project with a :star:
         ...
 
       - name: Run coverage
-        working-directory: test_package
         run: |
           coverage run ...
           coverage report -m
@@ -73,12 +72,12 @@ Support this project with a :star:
 
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v13
-        id: changed_files
+        id: verify-changed-files
         with:
           files: coverage.svg
 
       - name: Commit files
-        if: steps.changed_files.outputs.files_changed == 'true'
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -86,7 +85,7 @@ Support this project with a :star:
           git commit -m "Updated coverage.svg"
 
       - name: Push changes
-        if: steps.changed_files.outputs.files_changed == 'true'
+        if: steps.verify-changed-files.outputs.files_changed == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.github_token }}

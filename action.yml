@@ -16,7 +16,7 @@ runs:
   steps:
     - id: coverage-badge
       run: |
-        pip install -U coverage coverage-badge
+        pip install -U coverage-badge
         EXTRA_ARGS=""
 
         if [[ '${{ inputs.overwrite }}' == 'true'  ]]; then

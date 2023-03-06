@@ -18,7 +18,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
     steps:
       - uses: actions/checkout@v2
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1.8
+        uses: tj-actions/coverage-badge-py@v2
 ```
 
 > NOTE: :warning:
@@ -68,7 +68,7 @@ Support this project with a :star:
           coverage report -m
 
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v1
+        uses: tj-actions/coverage-badge-py@v2
 
       - name: Verify Changed files
         uses: tj-actions/verify-changed-files@v13

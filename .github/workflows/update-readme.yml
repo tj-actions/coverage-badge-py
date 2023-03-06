@@ -14,27 +14,30 @@ jobs:
           fetch-depth: 0
 
       - name: Run auto-doc
-        uses: tj-actions/auto-doc@v1.5.0
+        uses: tj-actions/auto-doc@v1
 
-      - name: Run test
+      - name: Run remark
         uses: tj-actions/remark@v3
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v12
+        uses: tj-actions/verify-changed-files@v13
         id: verify_changed_files
         with:
           files: |
             README.md
+
       - name: README.md changed
         if: steps.verify_changed_files.outputs.files_changed == 'true'
         run: |
-          echo "README.md has uncommited changes"
+          echo "README.md has uncommitted changes"
           exit 1
+
       - name: Create Pull Request
         if: failure()
-        uses: peter-evans/create-pull-request@v4.2.3
+        uses: peter-evans/create-pull-request@v4
         with:
           base: "main"
+          labels: "merge when passing"
           title: "Updated README.md"
           branch: "chore/update-readme"
           commit-message: "Updated README.md"

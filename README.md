@@ -99,7 +99,7 @@ Support this project with a :star:
 
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter).
 
-- [coverage-badge](https://github.com/dbrgn/coverage-badge)
+*   [coverage-badge](https://github.com/dbrgn/coverage-badge)
 
 ## Report Bugs
 

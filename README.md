@@ -41,7 +41,7 @@ Support this project with a :star:
 
 |       INPUT       |  TYPE  | REQUIRED |     DEFAULT      |                 DESCRIPTION                 |
 |-------------------|--------|----------|------------------|---------------------------------------------|
-|      output       | string |  false   | `"coverage.svg"` | Output path to write the coverage<br>badge. |
+|      output       | string |  false   | `"coverage.svg"` | Output path to write the<br>coverage badge. |
 |     overwrite     | string |  false   |     `"true"`     |    Overwrite an existing coverage badge.    |
 | working-directory | string |  false   |      `"."`       |          Current working directory          |
 

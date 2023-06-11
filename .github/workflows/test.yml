@@ -44,7 +44,7 @@ jobs:
           working-directory: test_package
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v14
+        uses: tj-actions/verify-changed-files@v15
         id: verify-changed-files
         with:
           files: test_package/coverage.svg

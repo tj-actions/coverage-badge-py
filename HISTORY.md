@@ -1,5 +1,35 @@
 # Changelog
 
+# [2.0.3](https://github.com/tj-actions/coverage-badge-py/compare/v2.0.2...v2.0.3) - (2023-06-22)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([08b6b6b](https://github.com/tj-actions/coverage-badge-py/commit/08b6b6b612faaf900a93f13f8cb7346b4a9cd07b))  - (jackton1)
+- Update README.md ([e19506b](https://github.com/tj-actions/coverage-badge-py/commit/e19506b0c53b5ebe4b60f5122ed63a9d93cdf651))  - (Tonye Jack)
+- Update README.md ([3a001a6](https://github.com/tj-actions/coverage-badge-py/commit/3a001a6f6d72430d67e39f045b1c84f17c5abc06))  - (Tonye Jack)
+- Updated README.md
+ ([cb4e832](https://github.com/tj-actions/coverage-badge-py/commit/cb4e832328e104d23c42eb7ca4fc65ca2384168d))  - (jackton1)
+- Update README.md ([775b620](https://github.com/tj-actions/coverage-badge-py/commit/775b6204c896150819349b81b1ff6200fde24294))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#136](https://github.com/tj-actions/coverage-badge-py/pull/136): README.md ([8f15a70](https://github.com/tj-actions/coverage-badge-py/commit/8f15a70335015a06608db4963281e10f47c31b1c))  - (repo-ranger[bot])
+- PR [#135](https://github.com/tj-actions/coverage-badge-py/pull/135): README.md ([8196b73](https://github.com/tj-actions/coverage-badge-py/commit/8196b736c8685b87d057c31ec8f9730049c78f19))  - (repo-ranger[bot])
+- PR [#133](https://github.com/tj-actions/coverage-badge-py/pull/133): to v2.0.2 ([2d0ff2e](https://github.com/tj-actions/coverage-badge-py/commit/2d0ff2e1ab533cc61667f95af71be45e1f6cf15c))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/verify-changed-files action to v16 ([782bdaa](https://github.com/tj-actions/coverage-badge-py/commit/782bdaaa8b2e37612e6b6fac5e559e5544e6eef2))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v5.0.2 ([83c47ef](https://github.com/tj-actions/coverage-badge-py/commit/83c47efa8e96fb7a3fcea40c8d9d25306ed99d6a))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v15 ([cdd877f](https://github.com/tj-actions/coverage-badge-py/commit/cdd877fd98bb2ab637eba8888fe793542e9b94c8))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v5.0.1 ([751d319](https://github.com/tj-actions/coverage-badge-py/commit/751d319efac308b66c2afb8adbf7b1084a0e04bb))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v2.0.1 -> v2.0.2
+ ([d842eba](https://github.com/tj-actions/coverage-badge-py/commit/d842eba39726992d7b8c805ab142559c63eb74fe))  - (jackton1)
+
 # [2.0.2](https://github.com/tj-actions/coverage-badge-py/compare/v2.0.1...v2.0.2) - (2023-04-08)
 
 ## <!-- 26 -->🔄 Update

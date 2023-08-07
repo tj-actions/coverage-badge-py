@@ -21,7 +21,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
         uses: tj-actions/coverage-badge-py@v2
 ```
 
-> NOTE: :warning:
+> **Warning**:
 >
 > *   It's important that you run this action from the directory where the .coverage data file is located.
 

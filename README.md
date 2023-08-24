@@ -39,11 +39,11 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|       INPUT       |  TYPE  | REQUIRED |     DEFAULT      |                  DESCRIPTION                  |
-|-------------------|--------|----------|------------------|-----------------------------------------------|
-|      output       | string |  false   | `"coverage.svg"` | Output path to write the <br>coverage badge.  |
-|     overwrite     | string |  false   |     `"true"`     |     Overwrite an existing coverage badge.     |
-| working-directory | string |  false   |      `"."`       |           Current working directory           |
+|                                        INPUT                                        |  TYPE  | REQUIRED |     DEFAULT      |                  DESCRIPTION                  |
+|-------------------------------------------------------------------------------------|--------|----------|------------------|-----------------------------------------------|
+|                 <a name="input_output"></a>[output](#input_output)                  | string |  false   | `"coverage.svg"` | Output path to write the <br>coverage badge.  |
+|             <a name="input_overwrite"></a>[overwrite](#input_overwrite)             | string |  false   |     `"true"`     |     Overwrite an existing coverage badge.     |
+| <a name="input_working-directory"></a>[working-directory](#input_working-directory) | string |  false   |      `"."`       |           Current working directory           |
 
 <!-- AUTO-DOC-INPUT:END -->
 

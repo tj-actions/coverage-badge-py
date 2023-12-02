@@ -39,11 +39,26 @@ Support this project with a :star:
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|                                        INPUT                                        |  TYPE  | REQUIRED |     DEFAULT      |                  DESCRIPTION                  |
-|-------------------------------------------------------------------------------------|--------|----------|------------------|-----------------------------------------------|
-|                 <a name="input_output"></a>[output](#input_output)                  | string |  false   | `"coverage.svg"` | Output path to write the <br>coverage badge.  |
-|             <a name="input_overwrite"></a>[overwrite](#input_overwrite)             | string |  false   |     `"true"`     |     Overwrite an existing coverage badge.     |
-| <a name="input_working-directory"></a>[working-directory](#input_working-directory) | string |  false   |      `"."`       |           Current working directory           |
+```yaml
+- uses: tj-actions/coverage-badge-py@v2
+  id: coverage-badge-py
+  with:
+    # Output path to write the coverage badge.
+    # Type: string
+    # Default: "coverage.svg"
+    output: ''
+
+    # Overwrite an existing coverage badge.
+    # Type: boolean
+    # Default: "true"
+    overwrite: ''
+
+    # Current working directory
+    # Type: string
+    # Default: "."
+    working-directory: ''
+
+```
 
 <!-- AUTO-DOC-INPUT:END -->
 

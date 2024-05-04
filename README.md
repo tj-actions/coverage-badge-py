@@ -43,7 +43,8 @@ Support this project with a :star:
 - uses: tj-actions/coverage-badge-py@v2
   id: coverage-badge-py
   with:
-    # Output path to write the coverage badge.
+    # Output path to write the 
+    # coverage badge. 
     # Type: string
     # Default: "coverage.svg"
     output: ''

@@ -69,8 +69,6 @@ Support this project with a :star:
 ...
     steps:
       - uses: actions/checkout@v2
-        with: 
-          fetch-depth: 0
 
       - uses: actions/setup-python@v4
         with:

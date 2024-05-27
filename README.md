@@ -19,7 +19,7 @@ Generate coverage.py badge like this ![coverage badge](./coverage.svg) without u
 ```yaml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Coverage Badge
         uses: tj-actions/coverage-badge-py@v2
 ```
@@ -71,7 +71,7 @@ Support this project with a :star:
 ```yml
 ...
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v4
         with:

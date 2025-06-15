@@ -21,7 +21,7 @@ runs:
     - id: coverage-badge
       working-directory: ${{ inputs.working-directory }}
       run: |
-        pip install -U coverage-badge
+        pip install -U setuptools coverage-badge
         EXTRA_ARGS=""
 
         if [[ '${{ inputs.overwrite }}' == 'true'  ]]; then

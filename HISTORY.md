@@ -1,5 +1,107 @@
 # Changelog
 
+# [2.0.4](https://github.com/tj-actions/coverage-badge-py/compare/v2.0.3...v2.0.4) - (2025-06-15)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Installation error ([#174](https://github.com/tj-actions/coverage-badge-py/issues/174)) ([b2a3c98](https://github.com/tj-actions/coverage-badge-py/commit/b2a3c98908860e850dbc7d05b8f96da0b0d7938e))  - (Tonye Jack)
+- Test ([#173](https://github.com/tj-actions/coverage-badge-py/issues/173)) ([caa7063](https://github.com/tj-actions/coverage-badge-py/commit/caa70634c71d13510cd5410896590bb1fc7c8561))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/rebase.yml ([5ad5dcc](https://github.com/tj-actions/coverage-badge-py/commit/5ad5dcc85be2cca63dc43d933ca2144b40487dac))  - (Tonye Jack)
+- Deleted renovate.json ([652c472](https://github.com/tj-actions/coverage-badge-py/commit/652c472000547f93225981bb2eb91790682a6363))  - (Tonye Jack)
+- Deleted .github/workflows/auto-approve.yml ([349755f](https://github.com/tj-actions/coverage-badge-py/commit/349755f0acadc5935842aeb8d1c2fbeba9a34f54))  - (Tonye Jack)
+- Deleted .github/workflows/greetings.yml ([adc7ddb](https://github.com/tj-actions/coverage-badge-py/commit/adc7ddb710111808e9d909b1b2c1e731e52f4c6e))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([c19a0e1](https://github.com/tj-actions/coverage-badge-py/commit/c19a0e11399c7c0202582d1395a407e07872c940))  - (Tonye Jack)
+- Delete .github/ISSUE_TEMPLATE directory ([0cfb715](https://github.com/tj-actions/coverage-badge-py/commit/0cfb7159076d432491e3fbb8a920b626f6883f6b))  - (Tonye Jack)
+- Deleted .github/workflows/auto-merge.yml ([62f215a](https://github.com/tj-actions/coverage-badge-py/commit/62f215a1a56ddbaf2a051d16366b480c744f7f99))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([7de25b3](https://github.com/tj-actions/coverage-badge-py/commit/7de25b34f5458b3dcb67ee1f2c9597ed98953dff))  - (jackton1)
+- Update README.md ([b2b0398](https://github.com/tj-actions/coverage-badge-py/commit/b2b039895a9c884d88bd8e7fa3caf6f5c35d56a8))  - (Tonye Jack)
+- Updated README.md
+ ([12ae594](https://github.com/tj-actions/coverage-badge-py/commit/12ae594ea87853940a2cfa9e476471f99c54551f))  - (repo-ranger[bot])
+- Updated README.md
+ ([3fd75ad](https://github.com/tj-actions/coverage-badge-py/commit/3fd75ade40da882032c6f730c678bdfd56caf223))  - (jackton1)
+- Update README.md ([1ccc6df](https://github.com/tj-actions/coverage-badge-py/commit/1ccc6df6ae84587712c59b5a4f7e1b84cd08a521))  - (Tonye Jack)
+- Updated README.md
+ ([f10bc8c](https://github.com/tj-actions/coverage-badge-py/commit/f10bc8c3de2e8cdb70ca4435d4c9b924d8c82cbb))  - (jackton1)
+- Update README.md ([68e306d](https://github.com/tj-actions/coverage-badge-py/commit/68e306d0360fa0edcc18a8051fabb5bd480d772e))  - (Tonye Jack)
+- Updated README.md
+ ([276e24a](https://github.com/tj-actions/coverage-badge-py/commit/276e24ac45fcfdc6c65442f9f3150ecc546d617e))  - (jackton1)
+- Update update-readme.yml ([7d282b4](https://github.com/tj-actions/coverage-badge-py/commit/7d282b43921e35ad995b7920619eae955cf61b3f))  - (Tonye Jack)
+- Updated README.md
+ ([d2bfce6](https://github.com/tj-actions/coverage-badge-py/commit/d2bfce642f433d729bf6608cd8629084aed2a680))  - (repo-ranger[bot])
+- Updated .github/FUNDING.yml ([00fab9b](https://github.com/tj-actions/coverage-badge-py/commit/00fab9b535e6aa2bcf2a549cb42196225c955cd8))  - (Tonye Jack)
+- Updated .github/FUNDING.yml ([5e5b032](https://github.com/tj-actions/coverage-badge-py/commit/5e5b0322fdcc961b1a9463d7239c3f882c3f80b0))  - (Tonye Jack)
+- Update README.md ([8849f87](https://github.com/tj-actions/coverage-badge-py/commit/8849f8747136916177df39b6bd81c9617194381c))  - (Tonye Jack)
+- Update README.md ([a6670cb](https://github.com/tj-actions/coverage-badge-py/commit/a6670cbc9245f0f3213f5ad06636fc00e41f57b9))  - (Tonye Jack)
+- Updated renovate.json ([0b60431](https://github.com/tj-actions/coverage-badge-py/commit/0b60431e2c1bb3a5c8fd7d84f2dd1eaaf75d7bab))  - (Tonye Jack)
+
+## <!-- 3 -->📚 Documentation
+
+- Update checkout action ([#158](https://github.com/tj-actions/coverage-badge-py/issues/158)) ([aec860c](https://github.com/tj-actions/coverage-badge-py/commit/aec860c1e668b1f43f3b846f7794575719bae588))  - (Raphael Boidol)
+- Add boidolr as a contributor for doc ([#168](https://github.com/tj-actions/coverage-badge-py/issues/168)) ([fb59151](https://github.com/tj-actions/coverage-badge-py/commit/fb59151ebd9991b86460d0fdf14273302c68fa3d))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#169](https://github.com/tj-actions/coverage-badge-py/pull/169): README.md ([61af7d1](https://github.com/tj-actions/coverage-badge-py/commit/61af7d1a9f51bc946750bf5bf7c24eebcba03699))  - (repo-ranger[bot])
+- PR [#167](https://github.com/tj-actions/coverage-badge-py/pull/167): update codacy/codacy-analysis-cli-action action to v4.4.1 ([4723eaa](https://github.com/tj-actions/coverage-badge-py/commit/4723eaacb786a87e7e1a16f93bc5771a3458cd67))  - (repo-ranger[bot])
+- PR [#166](https://github.com/tj-actions/coverage-badge-py/pull/166): README.md ([47bafb5](https://github.com/tj-actions/coverage-badge-py/commit/47bafb52cc7829dee9c474cc696b594da4ca4ce5))  - (repo-ranger[bot])
+- PR [#165](https://github.com/tj-actions/coverage-badge-py/pull/165): update tj-actions/verify-changed-files action to v20 ([467b81c](https://github.com/tj-actions/coverage-badge-py/commit/467b81cb21e18c5cb22ccd90ac58cceda8332c29))  - (repo-ranger[bot])
+- PR [#164](https://github.com/tj-actions/coverage-badge-py/pull/164): update peter-evans/create-pull-request action to v6.0.5 ([a03b1ad](https://github.com/tj-actions/coverage-badge-py/commit/a03b1ada3d7c47e2abc91559093177250a04dae1))  - (repo-ranger[bot])
+- PR [#162](https://github.com/tj-actions/coverage-badge-py/pull/162): update peter-evans/create-pull-request action to v6.0.4 ([c133eb4](https://github.com/tj-actions/coverage-badge-py/commit/c133eb408e4bc1c8cdc9be9a8d47ed545a1d24f9))  - (repo-ranger[bot])
+- PR [#161](https://github.com/tj-actions/coverage-badge-py/pull/161): update peter-evans/create-pull-request action to v6.0.3 ([e553b0c](https://github.com/tj-actions/coverage-badge-py/commit/e553b0c02a546b92264680a6b27c2220774484b0))  - (repo-ranger[bot])
+- PR [#159](https://github.com/tj-actions/coverage-badge-py/pull/159): update peter-evans/create-pull-request action to v6.0.2 ([c5dd33b](https://github.com/tj-actions/coverage-badge-py/commit/c5dd33b339f328abf0a5efa7a2c6d789d149dbbc))  - (repo-ranger[bot])
+- PR [#157](https://github.com/tj-actions/coverage-badge-py/pull/157): update tj-actions/verify-changed-files action to v19 ([9deb249](https://github.com/tj-actions/coverage-badge-py/commit/9deb2498dcf1ee15b7e74632364dec597299a8b0))  - (repo-ranger[bot])
+- PR [#156](https://github.com/tj-actions/coverage-badge-py/pull/156): update peter-evans/create-pull-request action to v6.0.1 ([8b9f576](https://github.com/tj-actions/coverage-badge-py/commit/8b9f576bccacf287963887d621bcbb4578caadcb))  - (repo-ranger[bot])
+- PR [#155](https://github.com/tj-actions/coverage-badge-py/pull/155): README.md ([df713d7](https://github.com/tj-actions/coverage-badge-py/commit/df713d79e667f3fce0823cbd042ec94f7bf5fc5a))  - (repo-ranger[bot])
+- PR [#154](https://github.com/tj-actions/coverage-badge-py/pull/154): update codacy/codacy-analysis-cli-action action to v4.4.0 ([722db77](https://github.com/tj-actions/coverage-badge-py/commit/722db7718d484547fa53796ca8583ff0c12a45aa))  - (repo-ranger[bot])
+- PR [#153](https://github.com/tj-actions/coverage-badge-py/pull/153): update tj-actions/verify-changed-files action to v18 ([7c4adf8](https://github.com/tj-actions/coverage-badge-py/commit/7c4adf8e406f443f5412b032bd3ffe229416eec6))  - (repo-ranger[bot])
+- PR [#152](https://github.com/tj-actions/coverage-badge-py/pull/152): README.md ([25bfeea](https://github.com/tj-actions/coverage-badge-py/commit/25bfeea6011082500b30e1817ee2e481f4f0965e))  - (repo-ranger[bot])
+- PR [#151](https://github.com/tj-actions/coverage-badge-py/pull/151): update peter-evans/create-pull-request action to v6 ([4b67999](https://github.com/tj-actions/coverage-badge-py/commit/4b6799931b8b475be12c4ed40a19e2b9f97032d3))  - (repo-ranger[bot])
+- PR [#150](https://github.com/tj-actions/coverage-badge-py/pull/150): update tj-actions/verify-changed-files action to v17 ([7816b87](https://github.com/tj-actions/coverage-badge-py/commit/7816b875a933228a85d392782b11acd2c147de5e))  - (repo-ranger[bot])
+- PR [#149](https://github.com/tj-actions/coverage-badge-py/pull/149): update github/codeql-action action to v3 ([f58c12c](https://github.com/tj-actions/coverage-badge-py/commit/f58c12cb66d0036e905a3b834beb43e7ca97d88e))  - (repo-ranger[bot])
+- PR [#147](https://github.com/tj-actions/coverage-badge-py/pull/147): update actions/setup-python action to v5 ([b32afb5](https://github.com/tj-actions/coverage-badge-py/commit/b32afb526f5c50b6faf2702056058edfa0701ed1))  - (repo-ranger[bot])
+- PR [#146](https://github.com/tj-actions/coverage-badge-py/pull/146): README.md ([8dbad5c](https://github.com/tj-actions/coverage-badge-py/commit/8dbad5c7d0d12f40d4cf34c1f4581562373f41a8))  - (repo-ranger[bot])
+- PR [#144](https://github.com/tj-actions/coverage-badge-py/pull/144): update actions/checkout action to v4 ([4ab14d7](https://github.com/tj-actions/coverage-badge-py/commit/4ab14d71905688f51cd983e5a924a2d6f80b9422))  - (repo-ranger[bot])
+- PR [#143](https://github.com/tj-actions/coverage-badge-py/pull/143): update tj-actions/release-tagger action to v4 ([a95c957](https://github.com/tj-actions/coverage-badge-py/commit/a95c957d36f43fc03788974dcfacd6827a5671ff))  - (repo-ranger[bot])
+- PR [#142](https://github.com/tj-actions/coverage-badge-py/pull/142): README.md ([108fa7d](https://github.com/tj-actions/coverage-badge-py/commit/108fa7d31addfa2669fc5632c6745b9abc56614e))  - (repo-ranger[bot])
+- PR [#141](https://github.com/tj-actions/coverage-badge-py/pull/141): update tj-actions/auto-doc action to v3 ([c3e6d11](https://github.com/tj-actions/coverage-badge-py/commit/c3e6d11c5e5fa3e8a39431fc4b906036bf71165a))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- Update sync-release-version.yml ([#175](https://github.com/tj-actions/coverage-badge-py/issues/175)) ([1788bab](https://github.com/tj-actions/coverage-badge-py/commit/1788babcb24544eb5bbb6e0d374df5d1e54e670f))  - (Tonye Jack)
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.5 ([#171](https://github.com/tj-actions/coverage-badge-py/issues/171)) ([2820644](https://github.com/tj-actions/coverage-badge-py/commit/28206440274de951750ae4d69968cfdd7d9e43ba))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v7 ([#172](https://github.com/tj-actions/coverage-badge-py/issues/172)) ([8821941](https://github.com/tj-actions/coverage-badge-py/commit/882194103ff5d454869a5c0326f0d03a92b4325c))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.1.0 ([3750002](https://github.com/tj-actions/coverage-badge-py/commit/3750002fcf4fe6cb33fd4d1ba18a0f9b29f9ce9e))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.1 ([2a655a2](https://github.com/tj-actions/coverage-badge-py/commit/2a655a2b1a95afc4d76c3569108bbb76e0c10943))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([2b706e7](https://github.com/tj-actions/coverage-badge-py/commit/2b706e7271cd687c4894b35add9fd196d46978a8))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.5 ([17e000a](https://github.com/tj-actions/coverage-badge-py/commit/17e000aea591697c31c482e060e723070dcf6691))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.4 ([191f27c](https://github.com/tj-actions/coverage-badge-py/commit/191f27cfa66e29659622c8304353e518a0402d28))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.3 ([a226836](https://github.com/tj-actions/coverage-badge-py/commit/a226836dc6366a5436b0809af7853c46838ac4e5))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.2 ([7477354](https://github.com/tj-actions/coverage-badge-py/commit/7477354da49c550d42b367ffd8779aabd9c7cb4e))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v19 ([a17102a](https://github.com/tj-actions/coverage-badge-py/commit/a17102ae00a6aa46c2dab39dd926afd4b970f401))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6.0.1 ([997df85](https://github.com/tj-actions/coverage-badge-py/commit/997df8578c843b5173867f4d1e7ad95c9ab11e98))  - (renovate[bot])
+- **deps:** Update codacy/codacy-analysis-cli-action action to v4.4.0 ([db8a326](https://github.com/tj-actions/coverage-badge-py/commit/db8a326b856dca06324f0b3a5935c9e76019cde3))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v18 ([4fc45c6](https://github.com/tj-actions/coverage-badge-py/commit/4fc45c6db09b480d327f7f22bc4586e9c4fea6df))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6 ([bcd885f](https://github.com/tj-actions/coverage-badge-py/commit/bcd885fcc7d6da6fb9b36abacd61b5f4d9ef2169))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([05b33c3](https://github.com/tj-actions/coverage-badge-py/commit/05b33c3a74ebda289a37dd4cd1b7efca70ec2d91))  - (renovate[bot])
+- **deps:** Update github/codeql-action action to v3 ([625de83](https://github.com/tj-actions/coverage-badge-py/commit/625de83e756eed7649fa22418a51666ce9109b8c))  - (renovate[bot])
+- **deps:** Update actions/setup-python action to v5 ([4db1f3b](https://github.com/tj-actions/coverage-badge-py/commit/4db1f3b2b071084fa6acb35c7b807f23e7e31bfd))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4 ([0f3c732](https://github.com/tj-actions/coverage-badge-py/commit/0f3c732af1dedc532ce19279d89a3dfd0a8cd4d2))  - (renovate[bot])
+- **deps:** Update tj-actions/release-tagger action to v4 ([b009c8d](https://github.com/tj-actions/coverage-badge-py/commit/b009c8d9ea480bb2704664cbd394042bccb20fa5))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3 ([1e957f5](https://github.com/tj-actions/coverage-badge-py/commit/1e957f5c46dafecc18f5a51232db8fd7ae34aa8e))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded to v2.0.3 ([#140](https://github.com/tj-actions/coverage-badge-py/issues/140))
+
+Co-authored-by: jackton1 <jackton1@users.noreply.github.com> ([f88e004](https://github.com/tj-actions/coverage-badge-py/commit/f88e004a3b8d27e38f2f285897c0778dd4236b66))  - (tj-actions[bot])
+
 # [2.0.3](https://github.com/tj-actions/coverage-badge-py/compare/v2.0.2...v2.0.3) - (2023-06-22)
 
 ## <!-- 26 -->🔄 Update
@@ -164,12 +266,6 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9a8a5f2](https://github.co
  ([19b07f8](https://github.com/tj-actions/coverage-badge-py/commit/19b07f82fd178d3b323e26b0e9c46b23cc793265))  - (Tonye Jack)
 - Update .gitignore ([ae6c1e7](https://github.com/tj-actions/coverage-badge-py/commit/ae6c1e7b4126118f1c0cee64a78f1442115fb665))  - (Tonye Jack)
 - Update test.yml ([d249eed](https://github.com/tj-actions/coverage-badge-py/commit/d249eed6fe703f5a18b9ec059e8e53043f41c33b))  - (Tonye Jack)
-- Update test.yml ([e29025c](https://github.com/tj-actions/coverage-badge-py/commit/e29025c6a8cbab7fc3aa40999ee2422fa1bee2e6))  - (Tonye Jack)
-- Update test.yml ([be5c5bb](https://github.com/tj-actions/coverage-badge-py/commit/be5c5bb1f114794d8ffd20a35a29b5a3f6328ceb))  - (Tonye Jack)
-- Update action.yml ([e8494e5](https://github.com/tj-actions/coverage-badge-py/commit/e8494e51341a035c5edb6d3baca69202a4ae042a))  - (Tonye Jack)
-- Update action.yml ([bf89df5](https://github.com/tj-actions/coverage-badge-py/commit/bf89df57ebbb235a3c6a107a05449c441c52ba6d))  - (Tonye Jack)
-- Update test.yml ([ebdb469](https://github.com/tj-actions/coverage-badge-py/commit/ebdb469367fe3b597a2db66b4a530404ad1864d0))  - (Tonye Jack)
-- Update main.py ([43a93d4](https://github.com/tj-actions/coverage-badge-py/commit/43a93d40c3503b76eed6d8ec579b6a371988ea28))  - (Tonye Jack)
 - Update pascalgn/automerge-action action to v0.15.6 ([36b54d8](https://github.com/tj-actions/coverage-badge-py/commit/36b54d8ceca61d2f648342e32e8066e5c2a53b1d))  - (renovate[bot])
 - Updated .github/workflows/update-readme.yml ([d419ae8](https://github.com/tj-actions/coverage-badge-py/commit/d419ae8c84ab595ada0fcf7f0a3672d46a6a1837))  - (Tonye Jack)
 - Updated .github/workflows/update-readme.yml ([0a74cd6](https://github.com/tj-actions/coverage-badge-py/commit/0a74cd66179e388eec66c520b81883a7e59039fa))  - (Tonye Jack)
@@ -189,6 +285,12 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9a8a5f2](https://github.co
 - Update tj-actions/auto-doc action to v1.6.0 ([9e3604d](https://github.com/tj-actions/coverage-badge-py/commit/9e3604d85a37a9f362a39b94443e45b5db9608fb))  - (renovate[bot])
 - Update cirrus-actions/rebase action to v1.8 ([2b7add8](https://github.com/tj-actions/coverage-badge-py/commit/2b7add86c0ac3e1d99eaf0bd8eddf6a26937934a))  - (renovate[bot])
 - Update sync-release-version.yml ([acdde93](https://github.com/tj-actions/coverage-badge-py/commit/acdde93b011a285b2f4edfb13a800046c30498d7))  - (Tonye Jack)
+- Update test.yml ([e29025c](https://github.com/tj-actions/coverage-badge-py/commit/e29025c6a8cbab7fc3aa40999ee2422fa1bee2e6))  - (Tonye Jack)
+- Update test.yml ([be5c5bb](https://github.com/tj-actions/coverage-badge-py/commit/be5c5bb1f114794d8ffd20a35a29b5a3f6328ceb))  - (Tonye Jack)
+- Update action.yml ([e8494e5](https://github.com/tj-actions/coverage-badge-py/commit/e8494e51341a035c5edb6d3baca69202a4ae042a))  - (Tonye Jack)
+- Update action.yml ([bf89df5](https://github.com/tj-actions/coverage-badge-py/commit/bf89df57ebbb235a3c6a107a05449c441c52ba6d))  - (Tonye Jack)
+- Update test.yml ([ebdb469](https://github.com/tj-actions/coverage-badge-py/commit/ebdb469367fe3b597a2db66b4a530404ad1864d0))  - (Tonye Jack)
+- Update main.py ([43a93d4](https://github.com/tj-actions/coverage-badge-py/commit/43a93d40c3503b76eed6d8ec579b6a371988ea28))  - (Tonye Jack)
 - Update main.py ([f061ff3](https://github.com/tj-actions/coverage-badge-py/commit/f061ff3dda6178eb238e9403ecae34eaf83495eb))  - (Tonye Jack)
 - Update tj-actions/auto-doc action to v1.5.0 ([19494b7](https://github.com/tj-actions/coverage-badge-py/commit/19494b7573d848c6304afb5741b8c3466618bdd8))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.2.3 ([d365286](https://github.com/tj-actions/coverage-badge-py/commit/d36528609b01f61c969e44094744dd97f011286f))  - (renovate[bot])
@@ -200,7 +302,6 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9a8a5f2](https://github.co
 - Update tj-actions/auto-doc action to v1.4.3 ([a6551bb](https://github.com/tj-actions/coverage-badge-py/commit/a6551bb55690a035828333cd7bb991b1d710858a))  - (renovate[bot])
 - Update tj-actions/auto-doc action to v1.4.2 ([c993f26](https://github.com/tj-actions/coverage-badge-py/commit/c993f26dffe32a0ade2d16b532fdeadbd4284766))  - (renovate[bot])
 - Updated .github/ISSUE_TEMPLATE/bug_report.yaml ([3fdb6a6](https://github.com/tj-actions/coverage-badge-py/commit/3fdb6a6779254fa44304e97a44e4ceaf38e8a084))  - (Tonye Jack)
-- Update main.py ([6dfdb51](https://github.com/tj-actions/coverage-badge-py/commit/6dfdb516bdc0dd216d503d7d1c5290baefe91145))  - (Tonye Jack)
 - Update peter-evans/create-pull-request action to v4.2.0 ([31d7fff](https://github.com/tj-actions/coverage-badge-py/commit/31d7fffff9c8727c751f6fc3fb54ea77bf32b365))  - (renovate[bot])
 - Update peter-evans/create-pull-request action to v4.1.4 ([7267c94](https://github.com/tj-actions/coverage-badge-py/commit/7267c943e05eaffb28dcb978afa3527843825eb4))  - (renovate[bot])
 - Update tj-actions/verify-changed-files action to v12 ([2e5e832](https://github.com/tj-actions/coverage-badge-py/commit/2e5e832214a7e7c62ce3e5147bc3712a1507e72b))  - (renovate[bot])
@@ -228,6 +329,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9a8a5f2](https://github.co
 - Update tj-actions/auto-doc action to v1.3.0 ([42a4abf](https://github.com/tj-actions/coverage-badge-py/commit/42a4abf51051e1611e35ca404c84ea9519fb4868))  - (renovate[bot])
 - Update tj-actions/github-changelog-generator action to v1.14 ([7962d1f](https://github.com/tj-actions/coverage-badge-py/commit/7962d1f1a832bfac4b3b980db6881e7d49ecfb24))  - (renovate[bot])
 - Update tj-actions/verify-changed-files action to v10 ([83823a8](https://github.com/tj-actions/coverage-badge-py/commit/83823a8c35fda37d12694728529b4c1467bb8f9c))  - (renovate[bot])
+- Update main.py ([6dfdb51](https://github.com/tj-actions/coverage-badge-py/commit/6dfdb516bdc0dd216d503d7d1c5290baefe91145))  - (Tonye Jack)
 - Update codacy/codacy-analysis-cli-action action to v4.1.0
  ([7dae95b](https://github.com/tj-actions/coverage-badge-py/commit/7dae95b4602f7fb36986b429587e719c9aed1b71))  - (Renovate Bot)
 - Update peter-evans/create-pull-request action to v4.0.4
@@ -442,6 +544,14 @@ Bumps [actions/checkout](https://github.com/actions/checkout) from 2 to 2.3.4.
 - [Commits](https://github.com/actions/checkout/compare/v2...v2.3.4)
 
 Signed-off-by: dependabot[bot] <support@github.com> ([f5a20b3](https://github.com/tj-actions/coverage-badge-py/commit/f5a20b30f19641784bf4768df10aef75a7e5c35a))  - (dependabot[bot])
+- Bump tj-actions/sync-release-version from v8 to v8.5
+
+Bumps [tj-actions/sync-release-version](https://github.com/tj-actions/sync-release-version) from v8 to v8.5.
+- [Release notes](https://github.com/tj-actions/sync-release-version/releases)
+- [Changelog](https://github.com/tj-actions/sync-release-version/blob/main/HISTORY.md)
+- [Commits](https://github.com/tj-actions/sync-release-version/compare/v8...c3648fd109a88e7fde67648288c2a55d1b8ece2c)
+
+Signed-off-by: dependabot[bot] <support@github.com> ([9d03b68](https://github.com/tj-actions/coverage-badge-py/commit/9d03b688779f01db5b8e35d95bbad7b99cdf06be))  - (dependabot[bot])
 
 ## <!-- 16 -->➕ Add
 
@@ -605,17 +715,6 @@ Signed-off-by: dependabot[bot] <support@github.com> ([f5a20b3](https://github.co
 
 # [1.6](https://github.com/tj-actions/coverage-badge-py/compare/v1.5...v1.6) - (2021-05-08)
 
-## <!-- 13 -->📦 Bumps
-
-- Bump tj-actions/sync-release-version from v8 to v8.5
-
-Bumps [tj-actions/sync-release-version](https://github.com/tj-actions/sync-release-version) from v8 to v8.5.
-- [Release notes](https://github.com/tj-actions/sync-release-version/releases)
-- [Changelog](https://github.com/tj-actions/sync-release-version/blob/main/HISTORY.md)
-- [Commits](https://github.com/tj-actions/sync-release-version/compare/v8...c3648fd109a88e7fde67648288c2a55d1b8ece2c)
-
-Signed-off-by: dependabot[bot] <support@github.com> ([9d03b68](https://github.com/tj-actions/coverage-badge-py/commit/9d03b688779f01db5b8e35d95bbad7b99cdf06be))  - (dependabot[bot])
-
 ## <!-- 26 -->🔄 Update
 
 - Update action.yml ([786077b](https://github.com/tj-actions/coverage-badge-py/commit/786077b81572723a796adaf34015dfaeea425c3b))  - (Tonye Jack)
@@ -681,6 +780,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9d03b68](https://github.co
 
 - Upgraded from v1.2 -> v1.3
  ([d8cd2ed](https://github.com/tj-actions/coverage-badge-py/commit/d8cd2edf7511c25409d5991ed5b24b3bf0c36b56))  - (jackton1)
+- Upgraded from v1.1 -> v1.2
+ ([49b1358](https://github.com/tj-actions/coverage-badge-py/commit/49b13587ba16a42d06eae43e9a1805fd04c4e0c6))  - (jackton1)
 
 # [1.3](https://github.com/tj-actions/coverage-badge-py/compare/v1.2...v1.3) - (2021-04-04)
 
@@ -692,26 +793,19 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9d03b68](https://github.co
 
 - Update action.yml ([1f55c86](https://github.com/tj-actions/coverage-badge-py/commit/1f55c86eea8b2b3c4265d29c38d01d2bb6b1f827))  - (Tonye Jack)
 
-## <!-- 9 -->⬆️ Upgrades
-
-- Upgraded from v1.1 -> v1.2
- ([49b1358](https://github.com/tj-actions/coverage-badge-py/commit/49b13587ba16a42d06eae43e9a1805fd04c4e0c6))  - (jackton1)
-
 # [1.2](https://github.com/tj-actions/coverage-badge-py/compare/v1.1...v1.2) - (2021-04-04)
 
 ## <!-- 26 -->🔄 Update
 
-- Update README.md ([425a943](https://github.com/tj-actions/coverage-badge-py/commit/425a9438084c3d2ce7b4017dd0c08f2889c91ef5))  - (Tonye Jack)
 - Update python Docker tag to v3.9.3
  ([f708766](https://github.com/tj-actions/coverage-badge-py/commit/f7087663896a51455690ec6cb789a4929b6dddb4))  - (Renovate Bot)
+- Update README.md ([425a943](https://github.com/tj-actions/coverage-badge-py/commit/425a9438084c3d2ce7b4017dd0c08f2889c91ef5))  - (Tonye Jack)
 - Updated .github/workflows/sync-release-version.yml ([b483a46](https://github.com/tj-actions/coverage-badge-py/commit/b483a463ca3dab68ea5a161f79363addcc1a7602))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
 
 - Merge branch 'main' of https://github.com/tj-actions/coverage-badge-py into main
  ([33d4d66](https://github.com/tj-actions/coverage-badge-py/commit/33d4d668226609defd03c71bb7c3058b4b6fabcc))  - (Tonye Jack)
-- Switched to using a composite action.
- ([5efb538](https://github.com/tj-actions/coverage-badge-py/commit/5efb538f234fe2207f6325cde7712bb5ee50da2c))  - (Tonye Jack)
 - PR [#4](https://github.com/tj-actions/coverage-badge-py/pull/4): python Docker tag to v3.9.3 ([a51b2c9](https://github.com/tj-actions/coverage-badge-py/commit/a51b2c98e74f9146ecd207565cf3d0b113379683))  - (Tonye Jack)
 - PR [#3](https://github.com/tj-actions/coverage-badge-py/pull/3): to v1.1 ([6be1b0b](https://github.com/tj-actions/coverage-badge-py/commit/6be1b0b9166b6dc174b7255a3007480b974d8454))  - (Tonye Jack)
 
@@ -802,6 +896,8 @@ Signed-off-by: dependabot[bot] <support@github.com> ([9d03b68](https://github.co
 
 ## <!-- 30 -->📝 Other
 
+- Switched to using a composite action.
+ ([5efb538](https://github.com/tj-actions/coverage-badge-py/commit/5efb538f234fe2207f6325cde7712bb5ee50da2c))  - (Tonye Jack)
 - Merge branch 'main' of https://github.com/tj-actions/coverage-badge-py into main
  ([6bc2aae](https://github.com/tj-actions/coverage-badge-py/commit/6bc2aaeeafc03ee8dc2ac1f9f4fe9e698843c609))  - (Tonye Jack)
 

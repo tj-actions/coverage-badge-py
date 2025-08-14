@@ -13,7 +13,6 @@
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-
 ## coverage-badge-py
 
 Generate coverage.py badge like this ![coverage badge](./coverage.svg) without uploading results to a 3rd party site.
@@ -47,7 +46,7 @@ Support this project with a :star:
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/coverage-badge-py@v2
+- uses: tj-actions/coverage-badge-py@1788babcb24544eb5bbb6e0d374df5d1e54e670f # v2
   id: coverage-badge-py
   with:
     # Output path to write the 

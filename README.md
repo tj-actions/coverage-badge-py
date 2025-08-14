@@ -74,11 +74,11 @@ Support this project with a :star:
 ```yml
 ...
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v4
 
       - uses: actions/setup-python@v4
         with:
-          python-version: 3.11
+          python-version: 3.13
 
       - name: Install dependencies
         ...
@@ -89,10 +89,10 @@ Support this project with a :star:
           coverage report -m
 
       - name: Coverage Badge
-        uses: tj-actions/coverage-badge-py@v2
+        uses: tj-actions/coverage-badge-py@1788babcb24544eb5bbb6e0d374df5d1e54e670f # v2
 
       - name: Verify Changed files
-        uses: tj-actions/verify-changed-files@v16
+        uses: tj-actions/verify-changed-files@a1c6acee9df209257a246f2cc6ae8cb6581c1edf # v20
         id: verify-changed-files
         with:
           files: coverage.svg
